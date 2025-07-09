@@ -24,6 +24,7 @@ This app:
 
 For questions regarding this privacy policy, please contact the developer via GitHub:  
 [https://github.com/GreedMitya](https://github.com/GreedMitya)
+senseimitya@gmail.com
 
 ---
 
