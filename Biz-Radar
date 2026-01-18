@@ -1,0 +1,108 @@
+# Privacy Policy
+
+**Last Updated:** *18/01/2026*
+
+## 1. Data Controller
+The data controller is the owner and operator of this Telegram bot (the “Service”).  
+Contact for data-related requests: *add email*.
+
+The Service is not affiliated with Telegram Messenger LLP.
+
+## 2. Categories of Data Collected
+The Service only collects the minimum data required for operation:
+
+### Telegram Public Data
+- Telegram user_id  
+- Telegram username (if available)
+
+### Payment and Subscription Data
+- transaction identifiers  
+- payment status  
+- date and time of payment  
+- purchased plan or service  
+- subscription start/expiration
+
+The Service does **not** access phone numbers, emails, contacts, or any non-public personal data unless explicitly provided by the user.
+
+## 3. Purpose of Data Processing
+Data is processed strictly to:
+- provide core bot functionality  
+- enable paid features, subscriptions, and verification  
+- prevent abuse and fraud  
+- support debugging and service improvement  
+- comply with financial/legal obligations
+
+No data is used for advertising or profiling.
+
+## 4. Legal Basis (GDPR)
+Processing relies on:
+- **Art. 6(1)(b)** performance of contract (bot functionality)  
+- **Art. 6(1)(c)** legal obligation (financial records)  
+- **Art. 6(1)(f)** legitimate interest (security and stability)  
+
+No automated decision-making under Art. 22.
+
+## 5. Data Retention
+- Telegram identifiers are retained until the user requests deletion.  
+- Payment history may be retained longer if required for financial or tax compliance.  
+- Backups are overwritten on a rolling basis.
+
+## 6. Data Sharing
+Data is never sold or shared for marketing.  
+Data may be shared only with:
+
+1. Telegram (by platform design)  
+2. Payment processors chosen by the user  
+3. Authorities if required by law
+
+## 7. International Transfers
+Data may be processed in other jurisdictions when necessary.  
+Transfers occur only with appropriate safeguards (secure infrastructure, SCCs, etc.).
+
+## 8. User Rights (GDPR)
+Users may request:
+- access  
+- correction  
+- deletion  
+- portability  
+- restriction of processing  
+- objection to processing  
+
+Requests: *add email*.  
+Some rights may be limited by legal retention obligations.
+
+## 9. Data Deletion Procedure
+Users may request deletion of:
+- Telegram identifiers  
+- stored bot data  
+- subscription/payment metadata (unless legally required)
+
+Residual data may remain in logs or backups until overwritten.
+
+## 10. Security Measures
+Implemented protections include:
+- encrypted communication  
+- restricted database access  
+- credential isolation  
+- monitoring for unauthorized access  
+
+Users interact at their own risk; no system is perfectly secure.
+
+## 11. Children’s Privacy
+The Service is not intended for individuals under 16.  
+No intentional data collection from minors.
+
+## 12. Liability Disclaimer
+The Service is provided “as is.”  
+The operator is **not** responsible for:
+- Telegram platform issues  
+- failures of payment processors  
+- user-side device/account breaches  
+- actions of third parties  
+
+Users must secure their own Telegram account and device.
+
+## 13. Updates to This Policy
+Policy may be revised at any time.  
+Latest version will always be available via public link.  
+Continued use constitutes acceptance of updates.
