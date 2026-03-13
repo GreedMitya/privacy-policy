@@ -2,8 +2,8 @@
 
 **Effective Date:** March 2026  
 **Last Updated:** March 2026  
-**Developer:** Dmitrii Greed  
-**Contact:** [your-email@email.com]
+**Developer:** GreedMitya 
+**Contact:** [senseimitya@gmail.com]
 
 ---
 
@@ -154,8 +154,8 @@ We may update these Terms from time to time. Continued use of the App after chan
 
 For questions about these Terms:
 
-**Dmitrii Greed**  
-Email: **[your-email@email.com]**
+**GreedMitya**  
+Email: **[senseimitya@gmail.com]**
 
 ---
 
