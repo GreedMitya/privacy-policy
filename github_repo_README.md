@@ -1,6 +1,6 @@
 # Legal Documents — GreedMitya Apps
 
-This repository contains Privacy Policies, Terms of Service, and Data Deletion instructions for all apps developed by **Dmitrii Greed**.
+This repository contains Privacy Policies, Terms of Service, and Data Deletion instructions for all apps developed by **GreedMitya**.
 
 ---
 
@@ -8,9 +8,9 @@ This repository contains Privacy Policies, Terms of Service, and Data Deletion i
 
 | Document | Link | Required By |
 |----------|------|-------------|
-| **Privacy Policy** | [glazd.md](glazd.md) | Google Play, GDPR/RODO, TikTok API |
-| **Terms of Service** | [glazd-terms.md](glazd-terms.md) | Google Play, TikTok API |
-| **Data Deletion Instructions** | [glazd-data-deletion.md](glazd-data-deletion.md) | Google Play (mandatory for apps with accounts) |
+| **Privacy Policy** | [glazd.md]([glazd.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_privacy_policy.md)) | Google Play, GDPR/RODO, TikTok API |
+| **Terms of Service** | [glazd-terms.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_terms_of_service.md) | Google Play, TikTok API |
+| **Data Deletion Instructions** | [glazd-data-deletion.md]([glazd-data-deletion.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_data_deletion.md)) | Google Play (mandatory for apps with accounts) |
 
 ### Quick Links for Play Console
 Copy these URLs into Google Play Console:
@@ -21,10 +21,10 @@ Copy these URLs into Google Play Console:
 
 ## Contact
 
-For any data requests or legal inquiries: **[your-email@email.com]**
+For any data requests or legal inquiries: **[senseimitya@gmail.com]**
 
 Polish Data Protection Authority: [uodo.gov.pl](https://uodo.gov.pl)
 
 ---
 
-*All apps are developed independently by Dmitrii Greed (personal developer account).*
+*All apps are developed independently by GreedMitya (personal developer account).*
