@@ -2,8 +2,8 @@
 
 **Effective Date:** March 2026  
 **Last Updated:** March 2026  
-**Developer:** Dmitrii Greed (operating under personal name)  
-**Contact:** [your-email@email.com]  
+**Developer:** GreedMitya (operating under personal name)  
+**Contact:** [senseimitya@gmail.com]  
 **Firebase Data Region:** europe-central2 (Warsaw, EU)
 
 ---
@@ -168,7 +168,7 @@ As a user in the European Union, you have the following rights:
 - **Right to object** — You can object to processing based on legitimate interest.
 - **Right to lodge a complaint** — You have the right to file a complaint with the Polish Data Protection Authority (UODO): [uodo.gov.pl](https://uodo.gov.pl)
 
-To exercise any rights (other than account deletion, which is in-app), contact: **[your-email@email.com]**
+To exercise any rights (other than account deletion, which is in-app), contact: **[senseimitya@agmail.com]**
 
 We will respond within **30 days**.
 
@@ -176,7 +176,7 @@ We will respond within **30 days**.
 
 ## 9. Children's Policy
 
-Glazd is intended for users **18 years of age and older**. We do not knowingly collect data from anyone under 18. If you believe a minor has created an account, please contact us at **[your-email@email.com]** and we will delete it promptly.
+Glazd is intended for users **18 years of age and older**. We do not knowingly collect data from anyone under 18. If you believe a minor has created an account, please contact us at **[senseimitya@gmail.com]** and we will delete it promptly.
 
 ---
 
@@ -210,9 +210,9 @@ Continued use of the app after changes constitutes acceptance of the updated pol
 ## 13. Contact
 
 **Data Controller:**  
-Dmitrii Greed  
-[Your city, Poland]  
-Email: **[your-email@email.com]**
+GreedMitya  
+[Poznan, Poland]  
+Email: **[senseimitya@gmail.com]**
 
 For GDPR/RODO data requests, please include "Data Request — Glazd" in the subject line.
 
