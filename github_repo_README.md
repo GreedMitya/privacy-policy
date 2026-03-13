@@ -8,7 +8,7 @@ This repository contains Privacy Policies, Terms of Service, and Data Deletion i
 
 | Document | Link | Required By |
 |----------|------|-------------|
-| **Privacy Policy** | [glazd.md]([glazd.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_privacy_policy.md)) | Google Play, GDPR/RODO, TikTok API |
+| **Privacy Policy** | [glazd.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_privacy_policy.md) | Google Play, GDPR/RODO, TikTok API |
 | **Terms of Service** | [glazd-terms.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_terms_of_service.md) | Google Play, TikTok API |
 | **Data Deletion Instructions** | [glazd-data-deletion.md]([glazd-data-deletion.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_data_deletion.md)) | Google Play (mandatory for apps with accounts) |
 
