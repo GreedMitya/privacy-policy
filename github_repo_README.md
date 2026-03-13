@@ -14,8 +14,8 @@ This repository contains Privacy Policies, Terms of Service, and Data Deletion i
 
 ### Quick Links for Play Console
 Copy these URLs into Google Play Console:
-- **Privacy Policy URL**: `[https://greedmitya.github.io/privacy-policy/glazd.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_privacy_policy.md)`
-- **Data Deletion URL**: `[https://greedmitya.github.io/privacy-policy/glazd-data-deletion.md](https://github.com/GreedMitya/privacy-policy/blob/main/glazd_data_deletion.md)`
+- **Privacy Policy URL**: `https://github.com/GreedMitya/privacy-policy/blob/main/glazd_privacy_policy.md`
+- **Data Deletion URL**: `https://github.com/GreedMitya/privacy-policy/blob/main/glazd_data_deletion.md`
 
 ---
 
