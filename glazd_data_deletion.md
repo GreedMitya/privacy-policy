@@ -80,4 +80,4 @@ Response time: Within 30 days (GDPR requirement).
 
 ---
 
-*This page is part of the Glazd legal documentation. See also: [Privacy Policy](glazd.md) | [Terms of Service](glazd-terms.md)*
+*This page is part of the Glazd legal documentation. See also: [Privacy Policy](glazd_privacy_policy.md) | [Terms of Service](glazd_terms_of_service.md)*

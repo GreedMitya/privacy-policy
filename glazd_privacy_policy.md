@@ -168,7 +168,7 @@ As a user in the European Union, you have the following rights:
 - **Right to object** — You can object to processing based on legitimate interest.
 - **Right to lodge a complaint** — You have the right to file a complaint with the Polish Data Protection Authority (UODO): [uodo.gov.pl](https://uodo.gov.pl)
 
-To exercise any rights (other than account deletion, which is in-app), contact: **[senseimitya@agmail.com]**
+To exercise any rights (other than account deletion, which is in-app), contact: **[senseimitya@gmail.com]**
 
 We will respond within **30 days**.
 
