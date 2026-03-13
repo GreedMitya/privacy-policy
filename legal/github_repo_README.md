@@ -1,6 +1,6 @@
 # Legal Documents — GreedMitya Apps
 
-This repository contains Privacy Policies, Terms of Service, and Data Deletion instructions for all apps developed by **Dmitrii Greed**.
+This repository contains Privacy Policies, Terms of Service, and Data Deletion instructions for all apps developed by **GreedMitya**.
 
 ---
 
