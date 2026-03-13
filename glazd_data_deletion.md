@@ -1,8 +1,8 @@
 # Data Deletion Instructions — Glazd
 
 **App:** Glazd — Anonymous Interest Matching  
-**Developer:** Dmitrii Greed  
-**Contact:** [your-email@email.com]
+**Developer:** GreedMitya  
+**Contact:** [senseimitya@gmail.com]
 
 ---
 
@@ -39,7 +39,7 @@ This is the fastest and most complete method.
 
 If you cannot access the app (e.g. lost your phone), you can submit a deletion request:
 
-📧 **Email:** [your-email@email.com]  
+📧 **Email:** [senseimitya@gmail.com]  
 **Subject:** Data Deletion Request — Glazd  
 **Include:** The phone number associated with your account (in +48XXXXXXXXX format)
 
@@ -74,7 +74,7 @@ Anonymized crash and analytics events may be retained by Google Firebase for up 
 
 ## Questions?
 
-Contact: **[your-email@email.com]**
+Contact: **[senseimitya@gmail.com]**
 
 Response time: Within 30 days (GDPR requirement).
 
