@@ -58,6 +58,7 @@ By using Glazd, you agree **not to**:
 - Upload TikTok data that does not belong to you
 - Attempt to identify other users through linking external information
 - Use the app for any illegal purpose
+- Prohibited from distributing content that violates our [Child Safety Standards](child_safety_standards.md)
 
 Violations may result in immediate account suspension or permanent ban.
 

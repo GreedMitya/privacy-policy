@@ -176,7 +176,7 @@ We will respond within **30 days**.
 
 ## 9. Children's Policy
 
-Glazd is intended for users **18 years of age and older**. We do not knowingly collect data from anyone under 18. If you believe a minor has created an account, please contact us at **[senseimitya@gmail.com]** and we will delete it promptly.
+Glazd is intended for users **18 years of age and older**. We do not knowingly collect data from anyone under 18. We strictly adhere to our [Child Safety Standards](child_safety_standards.md). If you believe a minor has created an account, please contact us at **[senseimitya@gmail.com]** and we will delete it promptly.
 
 ---
 
