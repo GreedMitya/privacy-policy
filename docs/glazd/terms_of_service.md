@@ -67,7 +67,7 @@ Violations may result in immediate account suspension or permanent ban.
 ## 5. Chat System and Content
 
 ### 5.1 Chat Slots
-Free accounts receive **5 simultaneous active chat slots**. Premium accounts receive unlimited chats for $4.99/month (where available). Deleting a chat frees a slot for both participants.
+Free accounts receive **3 simultaneous active chat slots**. Premium accounts receive unlimited chats for $4.99/month (where available). Deleting a chat frees a slot for both participants.
 
 ### 5.2 Message Content
 You are solely responsible for the content of messages you send. By sending a message, you represent that it does not violate these Terms or any applicable law.
