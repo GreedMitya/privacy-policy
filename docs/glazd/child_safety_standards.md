@@ -1,28 +1,20 @@
-# Child Safety Standards for Glazd
+# Child Safety Standards — Glazd
+**Effective Date:** March 2026  
+**Last Updated:** March 2026
 
-*Last Updated: March 2026*
+Glazd is committed to maintaining a safe environment for all users. We have a **ZERO TOLERANCE** policy regarding the sexual abuse, exploitation, or endangerment of children.
 
-Glazd is committed to maintaining a safe environment for all users. We have a zero-tolerance policy regarding Child Sexual Abuse Material (CSAM) and the sexual abuse or exploitation of children (CSAE).
+### 1. Prohibited Content and Behavior
+We strictly prohibit any of the following:
+*   **Child Sexual Abuse Material (CSAM):** The creation, possession, or distribution of any visual representation of child sexual abuse.
+*   **Grooming:** Any behavior intended to establish an emotional connection with a minor to lower their inhibitions in preparation for sexual abuse or exploitation.
+*   **Sexual Solicitation of Minors:** Requesting sexual favors, content, or interaction from anyone under the age of 18.
+*   **Financial Extortion (Sextortion):** Using threats to release sensitive or sexual content to extort money or favors.
 
-### 1. Zero Tolerance Policy
-Any user found to be sharing, promoting, or engaging in the distribution of Child Sexual Abuse Material (CSAM) or Child Sexual Abuse and Exploitation (CSAE) will be immediately and permanently banned from Glazd. 
+### 2. Enforcement and Reporting
+*   **Immediate Ban:** Any account involved in child safety violations is permanently banned without warning.
+*   **NCMEC Reporting:** As required by law, we report all instances of CSAM to the National Center for Missing & Exploited Children (NCMEC) and cooperate with law enforcement.
+*   **User Reporting:** If you encounter a user violating these standards, use the **[REPORT]** button in the chat immediately or email us at [senseimitya@gmail.com].
 
-### 2. Immediate Removal and Reporting
-Upon identification or receipt of a report involving CSAM, Glazd will:
-- **Immediately remove** the offending content.
-- **Terminate the account** of the responsible user.
-- **Report the incident** to the appropriate legal authorities, including the National Center for Missing and Exploited Children (NCMEC) as required by law.
-
-### 3. Reporting Mechanism
-Users are encouraged to report any suspicious or illegal activity immediately. You can report content or users directly within the app using the "Report" button on a user's profile or within a chat thread. 
-
-Alternatively, you can report violations to our designated Child Safety team via email at: 
-**[senseimitya@gmail.com]**
-
-### 4. Safety Point of Contact
-For official inquiries from Google Play or law enforcement regarding Child Safety and enforcement, please contact:
-**Name/Department:** Glazd Safety Operations
-**Email:** [senseimitya@gmail.com]
-
-### 5. Compliance
-Glazd operates as an 18+ platform and strictly prohibits access to minors. We use age-gating and interest-based matching to ensure a mature community, but we remain vigilant in enforcing these global safety standards to protect the broader ecosystem.
+### 3. Age Requirement
+Glazd is for users aged **18 and older**. We use interest-matching patterns to identify and remove potential underage users.

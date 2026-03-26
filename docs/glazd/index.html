@@ -67,6 +67,7 @@
                 <button onclick="loadDoc('privacy_policy.md')" class="nav-link hover:text-cyan-500 py-1">Privacy</button>
                 <button onclick="loadDoc('terms_of_service.md')" class="nav-link hover:text-cyan-500 py-1">Terms</button>
                 <button onclick="loadDoc('data_deletion.md')" class="nav-link hover:text-cyan-500 py-1">Deletion</button>
+                <button onclick="loadDoc('child_safety_standards.md')" class="nav-link hover:text-cyan-500 py-1">Safety</button>
             </nav>
         </div>
     </header>
@@ -146,6 +147,8 @@
                 loadDoc('terms_of_service.md');
             } else if (hash === 'data_deletion' || hash === 'deletion') {
                 loadDoc('data_deletion.md');
+            } else if (hash === 'child_safety_standards' || hash === 'safety') {
+                loadDoc('child_safety_standards.md');
             } else {
                 loadDoc('privacy_policy.md');
             }
