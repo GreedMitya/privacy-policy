@@ -41,7 +41,7 @@ If you cannot access the app (e.g. lost your phone), you can submit a deletion r
 
 📧 **Email:** [senseimitya@gmail.com]  
 **Subject:** Data Deletion Request — Glazd  
-**Include:** The phone number associated with your account (in +48XXXXXXXXX format)
+**Include:** The phone number associated with your account (in international format, e.g., +[Country Code][Number], like +48XXXXXXXXX)
 
 We will process your request within **30 days** and confirm deletion by reply email.
 

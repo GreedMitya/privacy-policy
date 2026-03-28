@@ -9,7 +9,7 @@
 
 ## 1. Acceptance of Terms
 
-By downloading, installing, or using the Glazd application ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App.
+By downloading, installing, or using the Glazd application ("the App"), you agree to be bound by these Terms of Service ("Terms") and acknowledge our [Privacy Policy](privacy_policy.md), which is incorporated herein by reference. If you do not agree, do not use the App.
 
 Glazd is an anonymous interest-matching social application that connects users based on shared TikTok content interests.
 
@@ -69,6 +69,8 @@ Violations may result in immediate account suspension or permanent ban.
 ### 5.1 Chat Slots
 Free accounts receive **3 simultaneous active chat slots**. Premium accounts receive unlimited chats for $4.99/month (where available). Deleting a chat frees a slot for both participants.
 
+**Subscriptions and Refunds:** Premium subscriptions are processed via Google Play Billing. Subject to Google Play's refund policies, by purchasing a subscription, you consent to immediate access to the digital content and acknowledge that you lose your 14-day right of withdrawal under EU Consumer Law.
+
 ### 5.2 Message Content
 You are solely responsible for the content of messages you send. By sending a message, you represent that it does not violate these Terms or any applicable law.
 
@@ -103,7 +105,7 @@ You can delete your account at any time from **Profile → Settings → Delete A
 
 The Glazd name, logo, design, and original content are the intellectual property of the developer. You may not copy, modify, distribute, or reverse-engineer any part of the App without explicit written permission.
 
-Your messages and profile content remain your property. By using the App, you grant us a limited license to store and transmit your content solely as necessary to operate the App.
+Your messages and profile content remain your property. By using the App, you grant us a worldwide, non-exclusive, royalty-free, limited license to host, store, and transmit your content solely as necessary to operate the App and deliver messages to your intended recipients.
 
 ---
 

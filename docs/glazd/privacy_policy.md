@@ -14,7 +14,7 @@ Glazd ("the App", "we", "us") is an anonymous interest-matching social applicati
 
 This Privacy Policy explains what data we collect, how we use it, and your rights under the **General Data Protection Regulation (GDPR)** and Polish data protection law (**RODO**).
 
-By using Glazd, you agree to the practices described in this policy. If you disagree, please do not use the App.
+By using Glazd, you agree to the practices described in this policy. Your use of the App is also governed by our [Terms of Service](terms_of_service.md). If you disagree with this policy or our Terms, please do not use the App.
 
 ---
 
@@ -78,7 +78,8 @@ What we **do not** extract or store:
 | Display your public profile in the Discover list | Contract performance |
 | Send push notifications (chat requests, messages) | Consent (device permission) |
 | Moderate content and enforce safety rules | Legitimate interest |
-| Improve and fix the app (Crashlytics) | Legitimate interest |
+| Improve and fix the app (Firebase Crashlytics) | Legitimate interest |
+| Analyze app usage (Firebase Analytics) | Consent (in-app banner) |
 
 We do **not** use your data for advertising. We do **not** build advertising profiles. We do **not** sell your data to any third party.
 
@@ -163,7 +164,7 @@ As a user in the European Union, you have the following rights:
 - **Right of access** — You can request a copy of all personal data we hold about you.
 - **Right to rectification** — You can update your profile data directly in the app, or request corrections.
 - **Right to erasure ("right to be forgotten")** — Delete your account in-app at any time for full, immediate deletion.
-- **Right to data portability** — You can request an export of your personal data.
+- **Right to data portability** — You can request an export of your personal data in JSON format by emailing us at the address provided below.
 - **Right to restrict processing** — You can request that we limit how we use your data while a dispute is investigated.
 - **Right to object** — You can object to processing based on legitimate interest.
 - **Right to lodge a complaint** — You have the right to file a complaint with the Polish Data Protection Authority (UODO): [uodo.gov.pl](https://uodo.gov.pl)
