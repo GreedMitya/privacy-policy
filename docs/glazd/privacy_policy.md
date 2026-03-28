@@ -25,11 +25,12 @@ By using Glazd, you agree to the practices described in this policy. Your use of
 | Data | Purpose | Visibility to Other Users |
 |------|---------|--------------------------|
 | **Phone number** | One-time authentication via SMS OTP (Firebase Auth) | 🔒 Never visible to other users |
+| **Email address** | Support requests and account management | 🔒 Never visible to other users |
 | **TikTok username** | Bot-prevention identity verification | 🔒 Never visible to other users |
 | **Display name** | Your anonymous in-app name (you choose it) | ✅ Visible (e.g. "CosyReader42") |
-| **Optional bio** (max 200 chars) | Brief self-description | ✅ Visible if provided |
-| **Age range** (18-24, 25-30, 31+) | Displayed on profile | ✅ Visible if provided |
-| **City** (default: Warsaw) | Discover feature — shows you nearby users | ✅ Visible |
+| **Optional bio** (max 200 chars) | Brief self-description (Personalization) | ✅ Visible if provided |
+| **Age range** (18-24, 25-30, 31+) | Displayed on profile (Personalization) | ✅ Visible if provided |
+| **City** (default: Warsaw) | Discover feature (Personalization) | ✅ Visible |
 
 ### 2.2 TikTok Data Export (Core Feature)
 
@@ -52,18 +53,18 @@ What we **do not** extract or store:
 
 | Data | Description | Visibility |
 |------|-------------|------------|
-| **Interest vector** | ~60 category scores (0.0–1.0), e.g. `BookTok: 0.82` | 🔒 Never shown raw to others |
-| **Vibe label** | Auto-generated label from top 3 interests, e.g. "Cozy Academic Gamer" | ✅ Shown to chat partners |
-| **Interest avatar** | Auto-generated icon + color based on top interest | ✅ Shown in Discover list |
-| **Match scores** | Cosine similarity score between your interests and other users | ✅ Shown as "85% match" |
-| **Presence status** | Online / Offline + last seen timestamp | ✅ Online indicator shown |
-| **FCM push token** | Device token for push notifications | 🔒 Internal use only |
+| **Interest vector** | ~60 category scores (Personalization) | 🔒 Never shown raw to others |
+| **Vibe label** | Auto-generated label (Personalization) | ✅ Shown to chat partners |
+| **Interest avatar** | Auto-generated icon + color (Personalization) | ✅ Shown in Discover list |
+| **Match scores** | Cosine similarity score (App functionality) | ✅ Shown as "85% match" |
+| **Presence status** | Online / Offline + last seen (App functionality) | ✅ Online indicator shown |
+| **FCM/Device IDs** | Firebase UID, FCM tokens, Android ID (Diagnostics) | 🔒 Internal use only |
 
 ### 2.4 Usage Data
 
-- **Chat messages**: Text messages you send within Glazd chats. Stored in encrypted form. Visible only to you and your chat partner.
-- **Reports**: If you report another user, the report content is stored for moderation review.
-- **App activity logs**: Standard Firebase Analytics and Crashlytics data (crash reports, session info). Collected anonymously.
+- **Chat messages**: Text/media messages you send (App functionality). Stored in encrypted form. Visible only to you and your chat partner.
+- **Reports**: Content stored for moderation review (App functionality).
+- **App activity & Diagnostics**: Clicks, screen views, and crash reports (Firebase Analytics & Crashlytics). Purpose: Analytics.
 
 ---
 
@@ -71,15 +72,15 @@ What we **do not** extract or store:
 
 | Purpose | Legal Basis (GDPR) |
 |---------|-------------------|
-| Authenticate your identity (phone OTP) | Contract performance |
-| Verify you're a real TikTok user | Legitimate interest |
-| Compute your interest profile from TikTok export | Contract performance |
-| Match you with other users by interest similarity | Contract performance |
-| Display your public profile in the Discover list | Contract performance |
-| Send push notifications (chat requests, messages) | Consent (device permission) |
-| Moderate content and enforce safety rules | Legitimate interest |
-| Improve and fix the app (Firebase Crashlytics) | Legitimate interest |
-| Analyze app usage (Firebase Analytics) | Consent (in-app banner) |
+| Authenticate your identity (phone OTP) | Account management |
+| Verify you're a real TikTok user | Account management |
+| Compute your interest profile | Personalization |
+| Match you with other users | App functionality |
+| Display public profile | App functionality |
+| Send push notifications | App functionality |
+| Moderate content and safety | App functionality |
+| Improve and fix the app (Firebase Crashlytics) | Analytics |
+| Analyze app usage (Firebase Analytics) | Analytics |
 
 We do **not** use your data for advertising. We do **not** build advertising profiles. We do **not** sell your data to any third party.
 

@@ -52,6 +52,8 @@ We will process your request within **30 days** and confirm deletion by reply em
 | Data | Deleted? | Notes |
 |------|----------|-------|
 | Phone number (Firebase Auth) | ✅ Yes | Authentication record fully removed |
+| Email address | ✅ Yes | Removed from support/account records |
+| User IDs (Firebase UID) | ✅ Yes | |
 | TikTok username | ✅ Yes | Was stored privately; removed |
 | Display name | ✅ Yes | |
 | Interest vector (category scores) | ✅ Yes | |
