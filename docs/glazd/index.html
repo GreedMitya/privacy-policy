@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glazd — Legal Resources</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -18,7 +17,7 @@
             color: #e2e8f0;
             font-family: 'Inter', sans-serif;
         }
-        .font-mono { font-family: 'JetBrains+Mono', monospace; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
         .glass {
             background: rgba(26, 26, 31, 0.7);
             backdrop-filter: blur(12px);
@@ -26,7 +25,7 @@
         }
         .prose h1 { color: var(--cyber-cyan); font-weight: 800; font-size: 2.25rem; margin-bottom: 2rem; border-bottom: 2px solid var(--cyber-cyan); padding-bottom: 0.5rem; display: inline-block; }
         .prose h2 { color: var(--cyber-cyan); font-weight: 700; font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; opacity: 0.9; }
-        .prose h3 { color: #fff; font-weight: 600; font-size: 1.25rem; margin-top: 1.5rem; }
+        .prose h3 { color: #fff; font-weight: 600; font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
         .prose p { margin-bottom: 1rem; line-height: 1.7; color: #cbd5e1; }
         .prose ul { list-style-type: square; padding-left: 1.5rem; margin-bottom: 1rem; color: #cbd5e1; }
         .prose li { margin-bottom: 0.5rem; }
@@ -36,8 +35,8 @@
         .prose table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; background: rgba(255,255,255,0.03); }
         .prose th, .prose td { padding: 0.75rem; border: 1px solid rgba(0,243,255,0.1); text-align: left; }
         .prose th { background: rgba(0,243,255,0.05); color: var(--cyber-cyan); }
-        .prose blockquote { border-left: 4px solid var(--cyber-cyan); padding-left: 1rem; font-style: italic; background: rgba(0,243,255,0.03); padding: 1rem; margin: 1rem 0; border-radius: 0 4px 4px 0; }
-        
+        .prose blockquote { border-left: 4px solid var(--cyber-cyan); padding: 1rem; font-style: italic; background: rgba(0,243,255,0.03); margin: 1rem 0; border-radius: 0 4px 4px 0; }
+        .prose hr { border-color: rgba(0,243,255,0.1); margin: 2rem 0; }
         .nav-link {
             transition: all 0.3s;
             border-bottom: 2px solid transparent;
@@ -46,12 +45,8 @@
             color: var(--cyber-cyan);
             border-bottom-color: var(--cyber-cyan);
         }
-        .glow-button {
-            box-shadow: 0 0 15px rgba(0, 243, 255, 0.2);
-        }
-        .glow-button:hover {
-            box-shadow: 0 0 25px rgba(0, 243, 255, 0.4);
-        }
+        .doc-section { display: none; }
+        .doc-section.visible { display: block; }
     </style>
 </head>
 <body class="min-h-screen selection:bg-cyan-500/30">
@@ -64,21 +59,353 @@
                 <h1 class="font-mono text-xl tracking-tighter font-bold">GLAZD<span class="text-cyan-500">.legal</span></h1>
             </div>
             <nav id="doc-nav" class="flex gap-6 text-sm font-mono uppercase tracking-widest text-gray-400">
-                <button onclick="loadDoc('privacy_policy.md')" class="nav-link hover:text-cyan-500 py-1">Privacy</button>
-                <button onclick="loadDoc('terms_of_service.md')" class="nav-link hover:text-cyan-500 py-1">Terms</button>
-                <button onclick="loadDoc('data_deletion.md')" class="nav-link hover:text-cyan-500 py-1">Deletion</button>
-                <button onclick="loadDoc('child_safety_standards.md')" class="nav-link hover:text-cyan-500 py-1">Safety</button>
+                <button onclick="showDoc('privacy')" class="nav-link hover:text-cyan-500 py-1">Privacy</button>
+                <button onclick="showDoc('terms')" class="nav-link hover:text-cyan-500 py-1">Terms</button>
+                <button onclick="showDoc('deletion')" class="nav-link hover:text-cyan-500 py-1">Deletion</button>
+                <button onclick="showDoc('safety')" class="nav-link hover:text-cyan-500 py-1">Safety</button>
             </nav>
         </div>
     </header>
 
     <!-- Main Content -->
     <main class="max-w-4xl mx-auto px-6 py-12 md:py-20">
-        <div id="content-loader" class="hidden flex justify-center py-20">
-            <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-cyan-500"></div>
-        </div>
-        <article id="content" class="prose max-w-none opacity-0 transition-opacity duration-500">
-            <!-- Content will be injected here -->
+        <article class="prose max-w-none">
+
+            <!-- PRIVACY POLICY -->
+            <div id="doc-privacy" class="doc-section">
+                <h1>Privacy Policy — Glazd</h1>
+                <p><strong>Effective Date:</strong> March 2026<br>
+                <strong>Last Updated:</strong> March 2026<br>
+                <strong>Developer:</strong> GreedMitya (operating under personal name)<br>
+                <strong>Contact:</strong> <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a><br>
+                <strong>Firebase Data Region:</strong> europe-central2 (Warsaw, EU)</p>
+                <hr>
+                <h2>1. Introduction</h2>
+                <p>Glazd ("the App", "we", "us") is an anonymous interest-matching social application for Android. We match users based on shared TikTok content interests, without requiring real names, photos, or personal social profiles.</p>
+                <p>This Privacy Policy explains what data we collect, how we use it, and your rights under the <strong>General Data Protection Regulation (GDPR)</strong> and Polish data protection law (<strong>RODO</strong>).</p>
+                <p>By using Glazd, you agree to the practices described in this policy. Your use of the App is also governed by our <a href="#terms_of_service" onclick="showDoc('terms')">Terms of Service</a>. If you disagree with this policy or our Terms, please do not use the App.</p>
+                <hr>
+                <h2>2. Data We Collect</h2>
+                <h3>2.1 Data You Provide Directly</h3>
+                <table>
+                    <tr><th>Data</th><th>Purpose</th><th>Visibility to Other Users</th></tr>
+                    <tr><td><strong>Phone number</strong></td><td>One-time authentication via SMS OTP (Firebase Auth)</td><td>🔒 Never visible to other users</td></tr>
+                    <tr><td><strong>Email address</strong></td><td>Support requests and account management</td><td>🔒 Never visible to other users</td></tr>
+                    <tr><td><strong>TikTok username</strong></td><td>Bot-prevention identity verification</td><td>🔒 Never visible to other users</td></tr>
+                    <tr><td><strong>Display name</strong></td><td>Your anonymous in-app name (you choose it)</td><td>✅ Visible (e.g. "CosyReader42")</td></tr>
+                    <tr><td><strong>Optional bio</strong> (max 200 chars)</td><td>Brief self-description</td><td>✅ Visible if provided</td></tr>
+                    <tr><td><strong>Age range</strong> (18-24, 25-30, 31+)</td><td>Displayed on profile</td><td>✅ Visible if provided</td></tr>
+                    <tr><td><strong>City</strong> (default: Warsaw)</td><td>Discover feature</td><td>✅ Visible</td></tr>
+                </table>
+                <h3>2.2 TikTok Data Export (Core Feature)</h3>
+                <p>To use Glazd, you upload a <strong>TikTok data export file</strong> (a .json file you download from TikTok's own settings). This file is processed by our servers to compute your interest profile.</p>
+                <blockquote><strong>Critical privacy fact:</strong> The raw TikTok data export file is <strong>automatically and permanently deleted</strong> from our servers within seconds of being processed. We never store it, and no human ever reads it. Only the computed interest scores (anonymized numbers) are retained.</blockquote>
+                <p>What we extract from the export:</p>
+                <ul>
+                    <li>Watch and like history → to identify content categories you enjoy</li>
+                    <li>Search terms → to understand active interests</li>
+                    <li>Hashtags engaged with → to refine category scoring</li>
+                    <li>Profile bio → high-confidence self-description</li>
+                </ul>
+                <p>What we <strong>do not</strong> extract or store:</p>
+                <ul>
+                    <li>Your TikTok follower list</li>
+                    <li>Your TikTok DMs or comments</li>
+                    <li>Any identifiable TikTok video IDs after processing</li>
+                </ul>
+                <h3>2.3 Data We Generate Automatically</h3>
+                <table>
+                    <tr><th>Data</th><th>Description</th><th>Visibility</th></tr>
+                    <tr><td><strong>Interest vector</strong></td><td>~60 category scores</td><td>🔒 Never shown raw to others</td></tr>
+                    <tr><td><strong>Vibe label</strong></td><td>Auto-generated label</td><td>✅ Shown to chat partners</td></tr>
+                    <tr><td><strong>Interest avatar</strong></td><td>Auto-generated icon + color</td><td>✅ Shown in Discover list</td></tr>
+                    <tr><td><strong>Match scores</strong></td><td>Cosine similarity score</td><td>✅ Shown as "85% match"</td></tr>
+                    <tr><td><strong>Presence status</strong></td><td>Online / Offline + last seen</td><td>✅ Online indicator shown</td></tr>
+                    <tr><td><strong>FCM/Device IDs</strong></td><td>Firebase UID, FCM tokens, Android ID</td><td>🔒 Internal use only</td></tr>
+                </table>
+                <h3>2.4 Usage Data</h3>
+                <ul>
+                    <li><strong>Chat messages</strong>: Stored in encrypted form. Visible only to you and your chat partner.</li>
+                    <li><strong>Reports</strong>: Content stored for moderation review.</li>
+                    <li><strong>App activity &amp; Diagnostics</strong>: Clicks, screen views, and crash reports (Firebase Analytics &amp; Crashlytics).</li>
+                </ul>
+                <hr>
+                <h2>3. How We Use Your Data</h2>
+                <table>
+                    <tr><th>Purpose</th><th>Legal Basis (GDPR)</th></tr>
+                    <tr><td>Authenticate your identity (phone OTP)</td><td>Account management</td></tr>
+                    <tr><td>Verify you're a real TikTok user</td><td>Account management</td></tr>
+                    <tr><td>Compute your interest profile</td><td>Personalization</td></tr>
+                    <tr><td>Match you with other users</td><td>App functionality</td></tr>
+                    <tr><td>Display public profile</td><td>App functionality</td></tr>
+                    <tr><td>Send push notifications</td><td>App functionality</td></tr>
+                    <tr><td>Moderate content and safety</td><td>App functionality</td></tr>
+                    <tr><td>Improve and fix the app (Firebase Crashlytics)</td><td>Analytics</td></tr>
+                    <tr><td>Analyze app usage (Firebase Analytics)</td><td>Analytics</td></tr>
+                </table>
+                <p>We do <strong>not</strong> use your data for advertising. We do <strong>not</strong> build advertising profiles. We do <strong>not</strong> sell your data to any third party.</p>
+                <hr>
+                <h2>4. What Other Users Can See</h2>
+                <p><strong>Other users CAN see:</strong></p>
+                <ul>
+                    <li>Your display name (chosen by you)</li>
+                    <li>Your automatically generated interest avatar (icon + color)</li>
+                    <li>Your top interest categories and match percentages</li>
+                    <li>Your online/offline status and approximate last-seen time</li>
+                    <li>Your optional bio, age range, and city (if provided)</li>
+                    <li>Messages you send them after a chat is started</li>
+                </ul>
+                <p><strong>Other users CANNOT see:</strong></p>
+                <ul>
+                    <li>Your phone number</li>
+                    <li>Your TikTok username</li>
+                    <li>Your raw TikTok data export or any raw interest data</li>
+                    <li>Exact session start or end times</li>
+                    <li>Your Firebase UID directly</li>
+                </ul>
+                <p>These restrictions are enforced at the server level through <strong>Firestore security rules</strong> and <strong>Cloud Function validation</strong>.</p>
+                <hr>
+                <h2>5. Data Sharing and Third Parties</h2>
+                <table>
+                    <tr><th>Provider</th><th>Purpose</th><th>Privacy Policy</th></tr>
+                    <tr><td><strong>Google Firebase</strong></td><td>Core app infrastructure</td><td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+                </table>
+                <p>All Firebase data is stored in <strong>europe-central2 (Warsaw, EU)</strong> and does not leave the European Union. We do <strong>not</strong> share your personal data with advertisers, data brokers, or any other third parties.</p>
+                <hr>
+                <h2>6. Data Retention</h2>
+                <table>
+                    <tr><th>Data</th><th>Retention Period</th></tr>
+                    <tr><td>TikTok data export file (raw JSON)</td><td><strong>Deleted within seconds</strong> of processing</td></tr>
+                    <tr><td>Interest vector (computed categories)</td><td>Until account is deleted</td></tr>
+                    <tr><td>User profile</td><td>Until account is deleted</td></tr>
+                    <tr><td>Chat messages</td><td>Until the chat is deleted by either participant</td></tr>
+                    <tr><td>Match scores</td><td>Until either user's account is deleted</td></tr>
+                    <tr><td>Push tokens</td><td>Until account is deleted or token refreshed</td></tr>
+                    <tr><td>Reports</td><td>90 days after resolution, then deleted</td></tr>
+                    <tr><td>Firebase Analytics / Crashlytics</td><td>Per Google's retention policy (up to 14 months)</td></tr>
+                </table>
+                <hr>
+                <h2>7. Account Deletion</h2>
+                <p>You can <strong>permanently delete your account</strong> at any time from within the app (Profile → Settings → Delete Account). Upon deletion, we immediately remove your profile, interest vector, all match scores, all chats, all chat requests, and your Firebase Auth record. This deletion is irreversible and automatic.</p>
+                <hr>
+                <h2>8. Your Rights Under GDPR / RODO</h2>
+                <ul>
+                    <li><strong>Right of access</strong> — Request a copy of all personal data we hold about you.</li>
+                    <li><strong>Right to rectification</strong> — Update your profile data directly in the app.</li>
+                    <li><strong>Right to erasure</strong> — Delete your account in-app at any time.</li>
+                    <li><strong>Right to data portability</strong> — Request an export of your personal data in JSON format.</li>
+                    <li><strong>Right to restrict processing</strong> — Request that we limit how we use your data.</li>
+                    <li><strong>Right to object</strong> — Object to processing based on legitimate interest.</li>
+                    <li><strong>Right to lodge a complaint</strong> — File a complaint with the Polish Data Protection Authority (UODO): <a href="https://uodo.gov.pl">uodo.gov.pl</a></li>
+                </ul>
+                <p>To exercise any rights, contact: <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a>. We will respond within <strong>30 days</strong>.</p>
+                <hr>
+                <h2>9. Children's Policy</h2>
+                <p>Glazd is intended for users <strong>18 years of age and older</strong>. We do not knowingly collect data from anyone under 18. If you believe a minor has created an account, please contact us at <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a> and we will delete it promptly.</p>
+                <hr>
+                <h2>10. Security</h2>
+                <ul>
+                    <li><strong>In transit</strong>: All data is encrypted using TLS (HTTPS).</li>
+                    <li><strong>At rest</strong>: All Firestore and Cloud Storage data is encrypted using AES-256.</li>
+                    <li><strong>Access control</strong>: Sensitive fields are protected by Firestore security rules.</li>
+                    <li><strong>Rate limiting</strong>: Server-side rate limits (20 chat requests/hour, 60 messages/hour).</li>
+                    <li><strong>Moderation</strong>: Accounts receiving 5 reports are automatically reviewed.</li>
+                </ul>
+                <hr>
+                <h2>11. Push Notifications</h2>
+                <p>We use <strong>Firebase Cloud Messaging (FCM)</strong> to deliver notifications about chat requests and messages. Notifications are sent only for in-app events (not promotional). You can disable notifications at any time in your device settings.</p>
+                <hr>
+                <h2>12. Changes to This Policy</h2>
+                <p>We may update this Privacy Policy from time to time. Material changes will be communicated via an in-app notification. The "Last Updated" date at the top of this page will always reflect the current version.</p>
+                <hr>
+                <h2>13. Contact</h2>
+                <p><strong>Data Controller:</strong> GreedMitya, Poznan, Poland<br>
+                Email: <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a></p>
+                <p><em>Glazd is developed independently as a personal project. Firebase is a service of Google LLC.</em></p>
+            </div>
+
+            <!-- TERMS OF SERVICE -->
+            <div id="doc-terms" class="doc-section">
+                <h1 id="terms_of_service">Terms of Service — Glazd</h1>
+                <p><strong>Effective Date:</strong> March 2026<br>
+                <strong>Last Updated:</strong> March 2026<br>
+                <strong>Developer:</strong> GreedMitya<br>
+                <strong>Contact:</strong> <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a></p>
+                <hr>
+                <h2>1. Acceptance of Terms</h2>
+                <p>By downloading, installing, or using the Glazd application ("the App"), you agree to be bound by these Terms of Service ("Terms") and acknowledge our <a href="#privacy_policy" onclick="showDoc('privacy')">Privacy Policy</a>, which is incorporated herein by reference. If you do not agree, do not use the App.</p>
+                <p>Glazd is an anonymous interest-matching social application that connects users based on shared TikTok content interests.</p>
+                <hr>
+                <h2>2. Eligibility</h2>
+                <p>You must be at least <strong>18 years old</strong> to use Glazd. By creating an account, you confirm that you meet this requirement.</p>
+                <p>You must have a valid phone number capable of receiving SMS messages.</p>
+                <p>You must have a TikTok account and be able to export your TikTok data file.</p>
+                <hr>
+                <h2>3. Account Registration</h2>
+                <h3>3.1 Phone Verification</h3>
+                <p>You register using your phone number, verified via a one-time SMS code (OTP). Each phone number can only be associated with one Glazd account.</p>
+                <h3>3.2 Display Name</h3>
+                <p>You choose an anonymous display name (max 30 characters). This name is visible to other users. It does not need to be your real name.</p>
+                <h3>3.3 TikTok Username</h3>
+                <p>You provide your TikTok username for identity verification (bot prevention). This is <strong>never shown to other users</strong>.</p>
+                <h3>3.4 TikTok Data Export</h3>
+                <p>You upload a TikTok data export file. This file is processed automatically to compute your interest profile, then <strong>permanently deleted from our servers</strong>. You consent to this processing as a condition of using the app.</p>
+                <h3>3.5 Account Responsibility</h3>
+                <p>You are responsible for all activity that occurs under your account. Keep your phone number secure. Glazd cannot recover accounts if you lose access to your registered phone number.</p>
+                <hr>
+                <h2>4. Acceptable Use</h2>
+                <p>By using Glazd, you agree <strong>not to</strong>:</p>
+                <ul>
+                    <li>Use the app if you are under 18 years of age</li>
+                    <li>Impersonate any person or entity</li>
+                    <li>Share another person's personal information without their consent</li>
+                    <li>Send harassing, threatening, or abusive messages</li>
+                    <li>Use the app to spam or send unsolicited commercial messages</li>
+                    <li>Attempt to circumvent any technical restrictions, rate limits, or security measures</li>
+                    <li>Use automated tools, bots, or scripts to interact with the app</li>
+                    <li>Upload TikTok data that does not belong to you</li>
+                    <li>Attempt to identify other users through linking external information</li>
+                    <li>Use the app for any illegal purpose</li>
+                    <li>Distribute content that violates our <a href="#child_safety_standards" onclick="showDoc('safety')">Child Safety Standards</a></li>
+                </ul>
+                <p>Violations may result in immediate account suspension or permanent ban.</p>
+                <hr>
+                <h2>5. Chat System and Content</h2>
+                <h3>5.1 Chat Slots</h3>
+                <p>Free accounts receive <strong>3 simultaneous active chat slots</strong>. Premium accounts receive unlimited chats for $4.99/month (where available). Deleting a chat frees a slot for both participants.</p>
+                <p><strong>Subscriptions and Refunds:</strong> Premium subscriptions are processed via Google Play Billing. Subject to Google Play's refund policies, by purchasing a subscription, you consent to immediate access to the digital content and acknowledge that you lose your 14-day right of withdrawal under EU Consumer Law.</p>
+                <h3>5.2 Message Content</h3>
+                <p>You are solely responsible for the content of messages you send. By sending a message, you represent that it does not violate these Terms or any applicable law.</p>
+                <h3>5.3 TikTok Links</h3>
+                <p>Sharing TikTok links within chats may reveal aspects of your TikTok identity. The App will warn you before you share non-TikTok links, as these may reveal your real identity.</p>
+                <h3>5.4 Anonymity</h3>
+                <p>Glazd is anonymous by design. You are responsible for protecting your own anonymity. Sharing links, usernames, or other information may reduce your anonymity — this is your choice to make.</p>
+                <hr>
+                <h2>6. Reporting and Blocking</h2>
+                <h3>6.1 Reporting</h3>
+                <p>You can report users who violate these Terms. Reports are reviewed by us for moderation purposes.</p>
+                <h3>6.2 Automatic Action</h3>
+                <p>Accounts receiving <strong>5 or more valid reports</strong> may be automatically suspended pending review.</p>
+                <h3>6.3 Blocking</h3>
+                <p>You can block any user. Blocked users cannot send you messages.</p>
+                <hr>
+                <h2>7. Account Deletion</h2>
+                <p>You can delete your account at any time from <strong>Profile → Settings → Delete Account</strong>. Deletion permanently and immediately removes all your data, including your profile, interest vector, match scores, and all chat history. This action is irreversible.</p>
+                <hr>
+                <h2>8. Intellectual Property</h2>
+                <p>The Glazd name, logo, design, and original content are the intellectual property of the developer. You may not copy, modify, distribute, or reverse-engineer any part of the App without explicit written permission.</p>
+                <p>Your messages and profile content remain your property. By using the App, you grant us a worldwide, non-exclusive, royalty-free, limited license to host, store, and transmit your content solely as necessary to operate the App.</p>
+                <hr>
+                <h2>9. Disclaimers</h2>
+                <p><strong>THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND</strong>, EXPRESS OR IMPLIED. WE DO NOT GUARANTEE THAT THE APP WILL BE AVAILABLE AT ALL TIMES, THAT MATCHES WILL RESULT IN SUCCESSFUL CONNECTIONS, THE ACCURACY OF INTEREST MATCHING SCORES, OR THAT OTHER USERS WILL BEHAVE APPROPRIATELY. USE OF THE APP IS AT YOUR OWN RISK.</p>
+                <hr>
+                <h2>10. Limitation of Liability</h2>
+                <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, DMITRII GREED SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, LOSS OF DATA, ANY INTERACTIONS OR RELATIONSHIPS FORMED THROUGH THE APP, OR ANY CONTENT SHARED BY OTHER USERS. OUR TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE APP OR PREMIUM FEATURES IN THE PAST 12 MONTHS.</p>
+                <hr>
+                <h2>11. TikTok Relationship</h2>
+                <p>Glazd is an independent application and is <strong>not affiliated with, endorsed by, or sponsored by TikTok or ByteDance Ltd.</strong> in any way. You are responsible for complying with TikTok's own Terms of Service when exporting and sharing your data.</p>
+                <hr>
+                <h2>12. Governing Law</h2>
+                <p>These Terms are governed by the laws of <strong>Poland</strong> and the <strong>European Union</strong>. Any disputes will be subject to the exclusive jurisdiction of the courts of Poland.</p>
+                <hr>
+                <h2>13. Changes to Terms</h2>
+                <p>We may update these Terms from time to time. Continued use of the App after changes constitutes acceptance of the revised Terms. Material changes will be notified in-app.</p>
+                <hr>
+                <h2>14. Contact</h2>
+                <p><strong>GreedMitya</strong><br>
+                Email: <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a></p>
+                <p><em>Last updated: March 2026</em></p>
+            </div>
+
+            <!-- DATA DELETION -->
+            <div id="doc-deletion" class="doc-section">
+                <h1 id="data_deletion">Data Deletion Instructions — Glazd</h1>
+                <p><strong>App:</strong> Glazd — Anonymous Interest Matching<br>
+                <strong>Developer:</strong> GreedMitya<br>
+                <strong>Contact:</strong> <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a></p>
+                <hr>
+                <h2>How to Delete Your Account and Data</h2>
+                <p>Google Play requires all apps with accounts to provide a clear data deletion path. Here is how to delete your Glazd account and all associated data.</p>
+                <hr>
+                <h2>Option 1: Delete from Within the App (Recommended)</h2>
+                <p>This is the fastest and most complete method.</p>
+                <ol style="list-style-type: decimal; padding-left: 1.5rem; margin-bottom: 1rem; color: #cbd5e1;">
+                    <li style="margin-bottom: 0.5rem;">Open <strong>Glazd</strong></li>
+                    <li style="margin-bottom: 0.5rem;">Tap <strong>Profile</strong> tab (bottom navigation)</li>
+                    <li style="margin-bottom: 0.5rem;">Tap <strong>Settings</strong> (gear icon)</li>
+                    <li style="margin-bottom: 0.5rem;">Scroll to the bottom and tap <strong>Delete Account</strong></li>
+                    <li style="margin-bottom: 0.5rem;">Confirm the deletion in the dialog</li>
+                </ol>
+                <p><strong>What happens immediately:</strong></p>
+                <ul>
+                    <li>✅ Your Firebase authentication record is deleted</li>
+                    <li>✅ Your user profile is permanently deleted</li>
+                    <li>✅ Your interest vector and computed category scores are deleted</li>
+                    <li>✅ All match scores involving your account are deleted</li>
+                    <li>✅ All chats you participated in are deleted (including all messages)</li>
+                    <li>✅ All pending and past chat requests are deleted</li>
+                    <li>✅ Your push notification token is removed</li>
+                </ul>
+                <p><strong>This is irreversible.</strong> There is no grace period — deletion is immediate and permanent.</p>
+                <hr>
+                <h2>Option 2: Submit a Deletion Request by Email</h2>
+                <p>If you cannot access the app (e.g. lost your phone), you can submit a deletion request:</p>
+                <p>📧 <strong>Email:</strong> <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a><br>
+                <strong>Subject:</strong> Data Deletion Request — Glazd<br>
+                <strong>Include:</strong> The phone number associated with your account (in international format, e.g., +48XXXXXXXXX)</p>
+                <p>We will process your request within <strong>30 days</strong> and confirm deletion by reply email.</p>
+                <hr>
+                <h2>What Data Is Deleted</h2>
+                <table>
+                    <tr><th>Data</th><th>Deleted?</th><th>Notes</th></tr>
+                    <tr><td>Phone number (Firebase Auth)</td><td>✅ Yes</td><td>Authentication record fully removed</td></tr>
+                    <tr><td>Email address</td><td>✅ Yes</td><td>Removed from support/account records</td></tr>
+                    <tr><td>User IDs (Firebase UID)</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>TikTok username</td><td>✅ Yes</td><td>Was stored privately; removed</td></tr>
+                    <tr><td>Display name</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>Interest vector (category scores)</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>Avatar configuration</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>Vibe label</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>Match scores with other users</td><td>✅ Yes</td><td>Pair records deleted</td></tr>
+                    <tr><td>Chat messages</td><td>✅ Yes</td><td>All messages in all chats</td></tr>
+                    <tr><td>Chat documents</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>Chat requests (sent and received)</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>FCM push token</td><td>✅ Yes</td><td></td></tr>
+                    <tr><td>TikTok data export file (raw JSON)</td><td>✅ Already deleted</td><td>Deleted automatically within seconds of original upload</td></tr>
+                </table>
+                <hr>
+                <h2>Note on Firebase Analytics / Crashlytics</h2>
+                <p>Anonymized crash and analytics events may be retained by Google Firebase for up to 14 months per Google's data retention policy. These events are not linked to your identity after account deletion.</p>
+                <hr>
+                <h2>Questions?</h2>
+                <p>Contact: <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a><br>
+                Response time: Within 30 days (GDPR requirement).</p>
+            </div>
+
+            <!-- CHILD SAFETY STANDARDS -->
+            <div id="doc-safety" class="doc-section">
+                <h1 id="child_safety_standards">Child Safety Standards — Glazd</h1>
+                <p><strong>Effective Date:</strong> March 2026<br>
+                <strong>Last Updated:</strong> March 2026</p>
+                <p>Glazd is committed to maintaining a safe environment for all users. We have a <strong>ZERO TOLERANCE</strong> policy regarding the sexual abuse, exploitation, or endangerment of children.</p>
+                <h3>1. Prohibited Content and Behavior</h3>
+                <p>We strictly prohibit any of the following:</p>
+                <ul>
+                    <li><strong>Child Sexual Abuse Material (CSAM):</strong> The creation, possession, or distribution of any visual representation of child sexual abuse.</li>
+                    <li><strong>Grooming:</strong> Any behavior intended to establish an emotional connection with a minor to lower their inhibitions in preparation for sexual abuse or exploitation.</li>
+                    <li><strong>Sexual Solicitation of Minors:</strong> Requesting sexual favors, content, or interaction from anyone under the age of 18.</li>
+                    <li><strong>Financial Extortion (Sextortion):</strong> Using threats to release sensitive or sexual content to extort money or favors.</li>
+                </ul>
+                <h3>2. Enforcement and Reporting</h3>
+                <ul>
+                    <li><strong>Immediate Ban:</strong> Any account involved in child safety violations is permanently banned without warning.</li>
+                    <li><strong>NCMEC Reporting:</strong> As required by law, we report all instances of CSAM to the National Center for Missing &amp; Exploited Children (NCMEC) and cooperate with law enforcement.</li>
+                    <li><strong>User Reporting:</strong> If you encounter a user violating these standards, use the <strong>[REPORT]</strong> button in the chat immediately or email us at <a href="mailto:senseimitya@gmail.com">senseimitya@gmail.com</a>.</li>
+                </ul>
+                <h3>3. Age Requirement</h3>
+                <p>Glazd is for users aged <strong>18 and older</strong>. We use interest-matching patterns to identify and remove potential underage users.</p>
+            </div>
+
         </article>
     </main>
 
@@ -95,62 +422,53 @@
     </footer>
 
     <script>
-        const contentEl = document.getElementById('content');
-        const loaderEl = document.getElementById('content-loader');
         const navLinks = document.querySelectorAll('.nav-link');
+        const docMap = {
+            'privacy': 'doc-privacy',
+            'terms': 'doc-terms',
+            'deletion': 'doc-deletion',
+            'safety': 'doc-safety'
+        };
 
-        async function loadDoc(filename) {
-            // Update UI
-            contentEl.style.opacity = '0';
-            loaderEl.classList.remove('hidden');
-            
-            // Update Active link
+        function showDoc(key) {
+            // Hide all sections
+            document.querySelectorAll('.doc-section').forEach(el => el.classList.remove('visible'));
+            // Show the selected one
+            const target = document.getElementById(docMap[key]);
+            if (target) target.classList.add('visible');
+
+            // Update nav active state
             navLinks.forEach(link => {
                 const label = link.textContent.toLowerCase();
-                if (filename.includes(label) || (label === 'privacy' && filename === 'privacy_policy.md')) {
-                    link.classList.add('active');
-                } else {
-                    link.classList.remove('active');
-                }
+                const matches =
+                    (key === 'privacy' && label === 'privacy') ||
+                    (key === 'terms' && label === 'terms') ||
+                    (key === 'deletion' && label === 'deletion') ||
+                    (key === 'safety' && label === 'safety');
+                link.classList.toggle('active', matches);
             });
 
-            try {
-                // Fetch MD file from current directory
-                const response = await fetch(filename);
-                if (!response.ok) throw new Error('File not found');
-                const markdown = await response.text();
-                
-                // Render
-                contentEl.innerHTML = marked.parse(markdown);
-                
-                // Show
-                setTimeout(() => {
-                    loaderEl.classList.add('hidden');
-                    contentEl.classList.remove('hidden');
-                    contentEl.style.opacity = '1';
-                }, 100);
-
-                // Update hash for deep linking
-                window.location.hash = filename.replace('.md', '');
-
-            } catch (err) {
-                contentEl.innerHTML = `<div class="py-20 text-center"><h1 class="text-red-500">404</h1><p>Document not found: ${filename}</p></div>`;
-                loaderEl.classList.add('hidden');
-                contentEl.style.opacity = '1';
-            }
+            // Update hash
+            const hashMap = {
+                'privacy': 'privacy_policy',
+                'terms': 'terms_of_service',
+                'deletion': 'data_deletion',
+                'safety': 'child_safety_standards'
+            };
+            window.location.hash = hashMap[key];
         }
 
-        // Handle initial load and browser back/forward
+        // Handle initial load based on hash
         window.addEventListener('load', () => {
             const hash = window.location.hash.replace('#', '');
             if (hash === 'terms_of_service' || hash === 'terms') {
-                loadDoc('terms_of_service.md');
+                showDoc('terms');
             } else if (hash === 'data_deletion' || hash === 'deletion') {
-                loadDoc('data_deletion.md');
+                showDoc('deletion');
             } else if (hash === 'child_safety_standards' || hash === 'safety') {
-                loadDoc('child_safety_standards.md');
+                showDoc('safety');
             } else {
-                loadDoc('privacy_policy.md');
+                showDoc('privacy');
             }
         });
     </script>
