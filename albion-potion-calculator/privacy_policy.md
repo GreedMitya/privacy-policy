@@ -1,6 +1,6 @@
 # Privacy Policy — Albion Potion Calculator
 
-_Last updated: April 6, 2026_
+_Last updated: April 24, 2026_
 
 This Privacy Policy describes how the **Albion Potion Calculator** mobile application ("the App") handles your information. Our primary goal is to provide a useful tool while maintaining the highest standards of user privacy.
 
@@ -22,9 +22,9 @@ The App uses the **Google Play Billing Library** to process premium feature purc
 
 ## 3. Advertisements
 
-**The current version of the App does not display advertisements.**
+**The App displays third-party banner advertisements.**
 
-However, the developer reserves the right to introduce third-party advertisements in future updates. Should this occur, this Privacy Policy will be updated to disclose the specific third-party advertising services used and any data they may collect (such as advertising IDs) for the purpose of serving relevant ads.
+We use third-party advertising services to serve these ads. These services may collect and use information about your device, such as your Advertising ID, IP address, and usage data, to provide relevant advertisements and measure ad performance. We encourage you to review the privacy policies of our advertising partners for more details on their data practices.
 
 ## 4. No Third-Party Analytics
 
