@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — Albion Craft Calculator</title>
+    <meta name="description" content="Support and contact page for Albion Craft Calculator (Android & iOS).">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        :root {
+            --app-bg: #1F160E;
+            --app-panel: #2A2A2A;
+            --app-primary: #C47A30;
+            --app-secondary: #D0A586;
+            --app-text: #F2E9DC;
+            --app-accent: #F0AD4E;
+        }
+        body {
+            font-family: 'EB Garamond', serif;
+            background-color: var(--app-bg);
+            background-image:
+                radial-gradient(circle at 0% 0%, rgba(196, 122, 48, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 100% 100%, rgba(208, 165, 134, 0.05) 0%, transparent 40%);
+            color: var(--app-text);
+            -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3 { font-family: 'EB Garamond', serif; letter-spacing: -0.01em; }
+        .ui-font { font-family: 'Inter', sans-serif; }
+        .medieval-card {
+            background: var(--app-panel);
+            border: 1px solid rgba(196, 122, 48, 0.2);
+            box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.7);
+            border-radius: 16px;
+        }
+        .prose p { line-height: 1.8; margin-bottom: 1.25rem; color: var(--app-secondary); font-size: 1.1rem; }
+        .contact-link { transition: all 0.3s ease; }
+        .contact-link:hover { color: var(--app-accent); transform: translateY(-2px); }
+        a { color: var(--app-primary); }
+    </style>
+</head>
+<body class="min-h-screen py-20 px-6 lg:px-8">
+    <div class="max-w-2xl mx-auto">
+        <header class="text-center mb-16">
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-[#F2E9DC]">Support</h1>
+            <p class="text-[#D0A586] text-xl font-medium tracking-wide italic">Albion Craft Calculator — Android &amp; iOS</p>
+        </header>
+
+        <main class="space-y-10 prose prose-invert max-w-none pb-16">
+            <section class="medieval-card p-10">
+                <h2 class="text-2xl font-bold text-white uppercase tracking-wider mb-6">Get Help</h2>
+                <p>
+                    Need help, found a bug, have a question about a recipe or a market price, or want to
+                    suggest a feature? We're happy to help. The fastest way to reach the developer is by email —
+                    we typically reply within a few days.
+                </p>
+                <p>
+                    When reporting an issue, it helps to include your <strong>device and OS version</strong>,
+                    the <strong>app version</strong> (shown in Settings), and a short description or screenshot
+                    of what went wrong.
+                </p>
+            </section>
+
+            <section class="medieval-card p-10 text-center bg-gradient-to-b from-[#2A2A2A] to-[#1F160E] border border-[#C47A30]/30">
+                <h2 class="text-2xl font-bold text-white uppercase tracking-wider mb-8">Contact</h2>
+                <div class="flex flex-wrap justify-center gap-12 ui-font">
+                    <a href="mailto:senseimitya@gmail.com" class="contact-link flex flex-col items-center gap-2">
+                        <span class="text-sm font-semibold tracking-widest text-[#C47A30]">EMAIL</span>
+                        <span class="text-[#F2E9DC] text-base">senseimitya@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/GreedMitya" class="contact-link flex flex-col items-center gap-2">
+                        <span class="text-sm font-semibold tracking-widest text-[#C47A30]">GITHUB</span>
+                        <span class="text-[#F2E9DC] text-base">github.com/GreedMitya</span>
+                    </a>
+                </div>
+                <p class="text-sm text-[#D0A586] mt-10 mb-0">
+                    See also our <a href="index.html" class="underline">Privacy Policy</a>.
+                </p>
+            </section>
+        </main>
+
+        <footer class="text-center pb-16 border-t border-white/10 pt-10 px-4">
+            <p class="text-[#D0A586] text-sm tracking-widest uppercase mb-2">&copy; 2026 GreedMitya — Albion Craft Calculator</p>
+            <p class="text-xs italic tracking-wide text-[#D0A586]/70">Fan-made tool. Not affiliated with or endorsed by Sandbox Interactive GmbH. Albion Online is a trademark of Sandbox Interactive GmbH.</p>
+        </footer>
+    </div>
+</body>
+</html>
