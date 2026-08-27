@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — NavBorn</title>
+    <meta name="description" content="Support and contact page for NavBorn, a fully offline Slavic action-RPG for Android.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        :root {
+            --bg: #0b0d0e; --panel: #14181a; --bone: #e9e4d8; --bone-dim: #b9b3a6;
+            --cold: #cfe3e8; --accent: #8fb3bd; --muted: #5a6266;
+        }
+        body {
+            font-family: 'Inter', sans-serif; background-color: var(--bg);
+            background-image:
+                radial-gradient(circle at 15% 0%, rgba(143,179,189,0.08) 0%, transparent 45%),
+                radial-gradient(circle at 90% 100%, rgba(207,227,232,0.05) 0%, transparent 45%);
+            color: var(--bone); -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3 { font-family: 'Cinzel', serif; letter-spacing: 0.01em; }
+        .panel {
+            background: var(--panel); border: 1px solid rgba(233,228,216,0.08);
+            box-shadow: 0 10px 40px -12px rgba(0,0,0,0.8); border-radius: 14px;
+        }
+        .edge { border-left: 3px solid var(--accent); }
+        .badge {
+            background: rgba(143,179,189,0.08); border: 1px solid rgba(143,179,189,0.25);
+            border-radius: 9999px; padding: 4px 14px; font-size: 0.72rem; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 0.14em; color: var(--cold);
+        }
+        p { line-height: 1.75; color: var(--bone-dim); }
+        a.link { color: var(--cold); text-decoration: underline; }
+        .q { color: var(--bone); font-weight: 600; }
+    </style>
+</head>
+<body class="min-h-screen py-16 px-5 lg:px-8">
+    <div class="max-w-3xl mx-auto">
+
+        <header class="text-center mb-14">
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight mb-3 text-[#e9e4d8]">NavBorn</h1>
+            <p class="text-[#8fb3bd] text-lg sm:text-xl italic tracking-wide">Support &amp; Contact</p>
+            <div class="mt-8 flex justify-center items-center gap-3 flex-wrap">
+                <span class="badge">Android</span>
+                <span class="badge">Offline Game</span>
+            </div>
+        </header>
+
+        <main class="space-y-8 pb-16">
+
+            <section class="panel p-8 border-t-2 border-t-[#8fb3bd]/30 text-center">
+                <p class="text-lg text-[#e9e4d8] mb-0">Need help, hit a bug, or have feedback? We read every message.</p>
+            </section>
+
+            <section class="panel p-8 text-center bg-gradient-to-b from-[#14181a] to-[#0b0d0e] border-2 border-[#8fb3bd]/25">
+                <h2 class="text-2xl font-bold text-white uppercase tracking-wider mb-3">Contact</h2>
+                <p class="mb-5">Email the developer — we usually reply within 2–3 business days:</p>
+                <a href="mailto:senseimitya@gmail.com" class="text-[#cfe3e8] text-lg font-semibold tracking-wide underline">senseimitya@gmail.com</a>
+                <p class="mt-4 text-sm text-[#5a6266]">When reporting a bug, please include your device model, Android version, and what you were doing.</p>
+            </section>
+
+            <section class="panel p-8 edge">
+                <h2 class="text-2xl font-bold text-white uppercase tracking-wider mb-6">FAQ</h2>
+
+                <div class="space-y-6">
+                    <div>
+                        <p class="q mb-1">Is NavBorn online? Do I need an account?</p>
+                        <p>No. NavBorn is a fully offline single-player game. There is no account, no login, and no internet connection required to play.</p>
+                    </div>
+                    <div>
+                        <p class="q mb-1">Where is my progress saved?</p>
+                        <p>Your character, gear, stash, and settings are saved locally on your device only. Nothing is uploaded to any server.</p>
+                    </div>
+                    <div>
+                        <p class="q mb-1">How do I delete my data?</p>
+                        <p>Uninstall the app, or go to Android Settings → Apps → NavBorn → Storage → Clear data. This permanently removes your local save.</p>
+                    </div>
+                    <div>
+                        <p class="q mb-1">I lost an item after dying — is that a bug?</p>
+                        <p>No. NavBorn has a punishing (softcore) death penalty by design: you lose some XP and equipped items have a small chance to be lost forever. Push into the deep carefully.</p>
+                    </div>
+                    <div>
+                        <p class="q mb-1">Are there ads or in-app purchases?</p>
+                        <p>No. NavBorn has no ads, no tracking, and no in-app purchases.</p>
+                    </div>
+                    <div>
+                        <p class="q mb-1">How do I report a bug or suggest a feature?</p>
+                        <p>Email <a href="mailto:senseimitya@gmail.com" class="link">senseimitya@gmail.com</a> or open an issue on <a href="https://github.com/GreedMitya" class="link">GitHub</a>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel p-8 text-center">
+                <p class="mb-0">Looking for our <a href="index.html" class="link">Privacy Policy</a>?</p>
+            </section>
+
+        </main>
+
+        <footer class="text-center pb-16 border-t border-white/10 pt-8 px-4">
+            <p class="text-[#b9b3a6] text-sm tracking-widest uppercase mb-1">&copy; 2026 GreedMitya — NavBorn</p>
+            <p class="text-[#5a6266] text-xs italic tracking-wide">A fully offline single-player game.</p>
+        </footer>
+    </div>
+</body>
+</html>
