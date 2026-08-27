@@ -8,6 +8,7 @@ Welcome to the central repository for Privacy Policies, Terms of Service, and Da
 
 | Project | Description | Legal Documents |
 | :--- | :--- | :--- |
+| **NavBorn** | Offline Slavic action-RPG (Android game) | [Privacy Policy](docs/navborn/privacy_policy.md) |
 | **Glazd** | Anonymous interest-matching social app | [Privacy](glazd/privacy_policy.md) • [Terms](glazd/terms_of_service.md) • [Safety](glazd/child_safety_standards.md) • [Data Deletion](glazd/data_deletion.md) |
 | **Biz-Radar** | Telegram business monitoring bot | [Privacy Policy](biz-radar/privacy_policy.md) |
 | **P2Poker** | Online multiplayer poker game | [Privacy Policy](p2poker/privacy_policy.md) |
