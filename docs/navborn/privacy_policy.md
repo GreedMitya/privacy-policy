@@ -3,85 +3,118 @@
 **Application:** NavBorn (Android package `com.greedmitya.navborn`)
 **Developer:** GreedMitya
 **Contact:** senseimitya@gmail.com
-**Effective date:** August 27, 2026
-**Last updated:** August 27, 2026
+**Effective date:** October 5, 2026
+**Last updated:** October 5, 2026
 
 ---
 
 ## 1. Summary
 
-NavBorn is a **single-player, fully offline** action-RPG game. We built it with a
-**zero-collection** architecture: the game does **not** collect, transmit, sell, or
-share any personal data. There are no user accounts, no advertising, no analytics or
-tracking SDKs, and no in-app purchases. You can play the entire game with no network
-connection.
+NavBorn is a **single-player** action-RPG. The game itself — your character,
+gear, stash, gold and settings — runs and is saved **entirely on your own device**.
+
+NavBorn also offers **optional global leaderboards** ("Ranks"). When your device is
+online, the game connects to **Unity Gaming Services (UGS)** so your best results can
+appear on worldwide ladders. This is the **only** data that ever leaves your device,
+and the game remains fully playable with no network connection (leaderboards simply
+show your personal bests instead of global ranks).
+
+There are **no advertisements, no advertising identifiers, no in-app purchases, and no
+third-party advertising or analytics-tracking SDKs.**
 
 ## 2. Data We Collect
 
-**None.** NavBorn does not collect or transmit any personally identifiable information
-(PII) or any other data to us or to any third party.
+### 2a. On your device only (not collected by us)
+Your game progress — character level, gear, stash, gold, and settings — is stored in a
+**local file on your device**. It never leaves your device unless it feeds an optional
+leaderboard submission described below, and we cannot access your save file.
 
-We do **not**:
+### 2b. Sent to Unity Gaming Services when you use online leaderboards
+When your device is online, NavBorn uses Unity Gaming Services to provide the Ranks
+feature. The following limited data is transmitted and stored on Unity's servers:
 
-- Collect your name, email, phone number, or contacts.
-- Request location, camera, microphone, or photo access.
-- Use advertising identifiers or an Advertising ID.
-- Integrate third-party analytics (e.g. Firebase, Google Analytics, Meta, Mixpanel).
-- Show advertisements.
-- Offer in-app purchases or process any payments.
-- Create online accounts or require a login.
+- **An anonymous player identifier.** On first online launch, UGS *Authentication*
+  silently creates a random, anonymous account ID for your installation. It is **not**
+  linked to your name, email, phone number, Google account, or any real-world identity.
+  We never ask you to log in.
+- **A display name (nickname) — only if you choose to set one.** If you type a name in
+  the Ranks screen, it is stored locally and sent to UGS so it can be shown next to your
+  score on the ladder. Leaving it blank shows a default placeholder ("Безымянный" /
+  "Nameless"). **Please do not enter personal information as your nickname** — it is
+  publicly visible to other players.
+- **Leaderboard scores.** Game results such as deepest level reached, run/clear times,
+  survival time, and kill counts, submitted at the end of a run so the ladders can rank
+  players.
 
-## 3. Local Data (Stays on Your Device)
+We do **not** collect your real name, email, phone number, contacts, precise location,
+camera, microphone, photos, or files. We do **not** use an advertising ID, show ads,
+run analytics-tracking SDKs (e.g. Firebase Analytics, Meta, Mixpanel), or offer in-app
+purchases.
 
-Your game progress — character level, gear, stash, gold, and settings — is saved as a
-**local file on your own device only**. This save data:
+## 3. Why We Use This Data
 
-- Never leaves your device and is never uploaded to us or any server.
-- Is not accessible to us.
-- Is removed when you uninstall the app or clear the app's data from Android Settings.
+The data in section 2b is used for a **single purpose: operating the global
+leaderboards** (ranking players, showing your position and your chosen name). It is not
+used for advertising, profiling, or sold to anyone.
 
-## 4. Permissions
+## 4. Third-Party Services
 
-NavBorn requests only the standard permissions Android automatically grants to games
-(such as vibration and, where applicable, preventing the screen from sleeping). It does
-**not** request access to sensitive permissions such as location, contacts, camera,
-microphone, storage of your personal files, or your call/SMS data.
+- **Unity Gaming Services (Unity Technologies).** Provides the Authentication and
+  Leaderboards infrastructure described above. Your anonymous ID, optional nickname and
+  scores are processed and stored by Unity under the
+  [Unity Privacy Policy](https://unity.com/legal/privacy-policy) and the
+  [Unity Gaming Services terms](https://unity.com/legal/terms-of-service/cloud).
+- **Google Play.** The app is distributed through Google Play. When you download or
+  update the app, Google may process data under
+  [Google's Privacy Policy](https://policies.google.com/privacy). That processing is
+  performed by Google, not by us.
 
-## 5. Children's Privacy
+NavBorn integrates **no** advertising or analytics-tracking SDKs.
 
-NavBorn does not knowingly collect any data from anyone, including children. Because the
-app collects no data at all, no personal information from children (or adults) is ever
-gathered or processed.
+## 5. Permissions
 
-## 6. Third-Party Services
+NavBorn requests only the **Internet / network** permission (required to submit scores
+to the online leaderboards) plus the standard permissions Android grants to games (such
+as vibration and keeping the screen awake). It does **not** request location, contacts,
+camera, microphone, your personal files, or your call/SMS data.
 
-The app is distributed through **Google Play**. When you download or update the app,
-Google may process data under
-[Google's Privacy Policy](https://policies.google.com/privacy). That processing is
-performed by Google, not by us, and is outside the scope of this policy. NavBorn itself
-integrates no third-party SDKs that collect data.
+## 6. Data Retention & Deletion
+
+- **Local save:** uninstalling NavBorn, or clearing its data in Android Settings →
+  Apps → NavBorn → Storage → Clear data, permanently deletes your on-device save.
+- **Leaderboard data (UGS):** to have your anonymous player record and any submitted
+  scores/nickname deleted from Unity Gaming Services, email
+  **senseimitya@gmail.com** from the device-related details you can provide (for
+  example your leaderboard nickname). We will process the deletion request. Because the
+  ID is anonymous, please include enough detail for us to locate the correct record.
 
 ## 7. Data Security
 
-Because no data is transmitted or stored off-device, there is no server-side data to
-breach. Your local save file is protected by your device's own operating-system
-security.
+Data sent to the leaderboards is transmitted over **encrypted HTTPS** connections and
+stored on Unity's infrastructure. Your local save file is protected by your device's own
+operating-system security.
 
-## 8. Your Rights (GDPR / CCPA)
+## 8. Children's Privacy
 
-Since we do not collect or store any personal data, we hold nothing to access, correct,
-export, or delete. To remove all data associated with the app, simply uninstall NavBorn
-or clear its data in Android Settings. This deletes your local save file permanently.
+NavBorn is not directed at children. The only data that can leave the device is an
+anonymous identifier, an optional self-chosen nickname, and game scores. We ask that
+players do not enter personal information as their nickname. If you believe a child has
+submitted personal information, contact us and we will delete the associated record.
 
-## 9. Changes to This Policy
+## 9. Your Rights (GDPR / CCPA)
 
-If the app's data practices ever change (for example, if a future version adds online
-features), this policy will be updated and the "Last updated" date above will change. The
-current version is always available at this page.
+You may request access to, or deletion of, the leaderboard data associated with your
+installation by contacting us at the email below. For all on-device data you are always
+in full control: uninstall the app or clear its data to erase it permanently.
 
-## 10. Contact
+## 10. Changes to This Policy
 
-For any privacy questions or requests, contact:
+If the app's data practices change, this policy will be updated and the "Last updated"
+date above will change. The current version is always available at this page.
+
+## 11. Contact
+
+For any privacy questions, data-access or deletion requests, contact:
 
 **Developer:** GreedMitya
 **Email:** senseimitya@gmail.com
