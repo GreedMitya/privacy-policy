@@ -12,7 +12,7 @@ Welcome to the central repository for Privacy Policies, Terms of Service, and Da
 | **Glazd** | Anonymous interest-matching social app | [Privacy](glazd/privacy_policy.md) • [Terms](glazd/terms_of_service.md) • [Safety](glazd/child_safety_standards.md) • [Data Deletion](glazd/data_deletion.md) |
 | **Biz-Radar** | Telegram business monitoring bot | [Privacy Policy](biz-radar/privacy_policy.md) |
 | **P2Poker** | Online multiplayer poker game | [Privacy Policy](p2poker/privacy_policy.md) |
-| **Albion Potion Calculator** | Market tool for Albion Online | [Privacy Policy](albion-potion-calculator/privacy_policy.md) |
+| **Albion Craft Calculator** | Market & crafting tool for Albion Online | [Privacy Policy](docs/albion-potion-calculator/privacy_policy.md) • [Terms of Use](docs/albion-potion-calculator/terms.html) • [Support](docs/albion-potion-calculator/support.html) |
 
 ---
 
